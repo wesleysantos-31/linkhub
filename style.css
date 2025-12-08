@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    height: px;
+    background: linear-gradient(#2f8f9d, #3bacb6);
+}
+
+.conteiner-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.centralizarDiv {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagem-perfil {
+    margin-top: 30px;
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+}
+
+.conteiner-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    max-width: 300px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 275px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: azure;
+    color: black;
+}
+
+.botao:hover {
+    background-color: #c1f9f7;
+}
+
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.corLinha {
+    width: 90%;
+}
