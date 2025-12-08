@@ -4,16 +4,31 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Source Code Pro';
     text-align: center;
     color: white;
-    height: px;
-    background: linear-gradient(#2f8f9d, #3bacb6);
+    background: linear-gradient(#2f8f9d, black);
+}
+
+h1 {
+    font-size: 3rem;
+    font-size: clamp(5px, 8vw, 42px);
+}
+
+.responsividadeParagrafo {
+    font-size: 3rem;
+    font-size: clamp(10px, 4vw, 18px);
+}
+
+.espacamento {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .conteiner-principal {
     display: flex;
     flex-direction: column;
+    max-width: 80%;
 }
 
 .centralizarDiv {
@@ -22,24 +37,24 @@ html, body{
 }
 
 #imagem-perfil {
-    margin-top: 30px;
+    margin-top: clamp(10px, 10vw, 40px);
     border-radius: 50%;
-    height: 125px;
-    width: 125px;
+    height: clamp(20px, 30vw, 200px);
+    width: clamp(20px, 30vw, 200px);
 }
 
 .conteiner-botoes {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 10px;
     max-width: 300px;
+    margin-top: 10%;
 }
 
 .botao {
     display: inline-block;
-    padding: 10px 20px;
-    width: 275px;
+    width: 225px;
+    height: px;
     padding: 10px;
     border-radius: 10px;
     border: none;
