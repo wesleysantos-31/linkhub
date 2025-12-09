@@ -44,6 +44,7 @@ h1 {
 
 #imagem-perfil {
     margin-top: clamp(10px, 10vw, 40px);
+    border: 2px solid white;
     border-radius: 50%;
     width: clamp(20px, 30vw, 160px);
     height: clamp(20px, 30vw, 160px);
@@ -62,7 +63,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: clamp(10px, 60vw, 225px);
+    width: clamp(10px, 60vw, 270px);
     height: clamp(35px, 11vw, 50px);
     border-radius: 10px;
     border: none;
